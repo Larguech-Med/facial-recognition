@@ -10,6 +10,8 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'stage_facial_regonition'  # Correct spelling
 
+print("testing")
+
 mysql = MySQL(app)
 
 @app.route('/')
